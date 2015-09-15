@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  vertical-align: baseline;
+}
+
+body {
+	background-image: url('../img/baseline.png');
+	background-position: 0 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1 {
+	font-size: 46px;
+	line-height: 48px;
+	margin: 12px 0;
+}
+
+h2 {
+	font-size: 38px;
+	line-height: 42px;
+	margin: 12px 0;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 36px;
+	margin: 12px 0;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 30px;
+	margin: 12px 0;
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 12px 0;
+}
+
+p {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 12px 0;
+}
+
+small {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+blockquote {
+	border-left: 1px solid grey;
+	font-size: 22px;
+	line-height: 30px;
+	margin: 30px 0;
+	padding-left: 30px;
+}
+
+ul {
+	margin: 12px 0;
+}
+
+table {
+	text-align: left;
+	width: 100%;
+}
+
+.lead {
+	font-size: 22px;
+	font-style: italic;
+	line-height: 30px;
+	margin: 12px 0;
+}
+
+.well {
+	background-color: rgba(0,0,0, .2);
+	padding: 12px 30px;
+}
